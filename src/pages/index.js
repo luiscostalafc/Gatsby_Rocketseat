@@ -5,16 +5,16 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Post = styled(Link) `
+const Post = styled(Link)`
    color: #000;
    text-decoration: none;
 
    h1 {
      font-size: 20px;
-     transition: opacity 130ms;
+     transition: opacity 150ms;
 
      &:hover {
-       opacity: 1.0;
+       opacity: 0.8;
      }
    }
 `
@@ -57,7 +57,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      }
+    }
   }
   `;
 
