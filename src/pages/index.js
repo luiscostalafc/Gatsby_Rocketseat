@@ -10,11 +10,11 @@ const Post = styled(Link) `
    text-decoration: none;
 
    h1 {
-     font-size: 30px;
-     transition: opacity 150ms;
+     font-size: 20px;
+     transition: opacity 130ms;
 
      &:hover {
-       opacity: 0.8;
+       opacity: 1.0;
      }
    }
 `
